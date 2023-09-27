@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OrderTest" project="base-domain" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.casestudy.basedomain.dto.OrderTest" time="0.0" displayname="OrderTest" uniqueid="[engine:junit-jupiter]/[class:com.casestudy.basedomain.dto.OrderTest]">
+    <testcase name="testGettersAndSetters" classname="com.casestudy.basedomain.dto.OrderTest" time="0.0" displayname="testGettersAndSetters()" uniqueid="[engine:junit-jupiter]/[class:com.casestudy.basedomain.dto.OrderTest]/[method:testGettersAndSetters()]"/>
+    <testcase name="testConstructor" classname="com.casestudy.basedomain.dto.OrderTest" time="0.0" displayname="testConstructor()" uniqueid="[engine:junit-jupiter]/[class:com.casestudy.basedomain.dto.OrderTest]/[method:testConstructor()]"/>
+  </testsuite>
+</testrun>

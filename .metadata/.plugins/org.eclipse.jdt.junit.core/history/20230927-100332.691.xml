@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OrderEventTest" project="base-domain" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.casestudy.basedomain.dto.OrderEventTest" time="4.941" displayname="OrderEventTest" uniqueid="[engine:junit-jupiter]/[class:com.casestudy.basedomain.dto.OrderEventTest]">
+    <testcase name="testGettersAndSetters" classname="com.casestudy.basedomain.dto.OrderEventTest" time="4.902" displayname="testGettersAndSetters()" uniqueid="[engine:junit-jupiter]/[class:com.casestudy.basedomain.dto.OrderEventTest]/[method:testGettersAndSetters()]"/>
+    <testcase name="testToString" classname="com.casestudy.basedomain.dto.OrderEventTest" time="0.035" displayname="testToString()" uniqueid="[engine:junit-jupiter]/[class:com.casestudy.basedomain.dto.OrderEventTest]/[method:testToString()]"/>
+    <testcase name="testConstructor" classname="com.casestudy.basedomain.dto.OrderEventTest" time="0.001" displayname="testConstructor()" uniqueid="[engine:junit-jupiter]/[class:com.casestudy.basedomain.dto.OrderEventTest]/[method:testConstructor()]"/>
+  </testsuite>
+</testrun>

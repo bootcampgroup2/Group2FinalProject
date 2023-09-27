@@ -1,0 +1,80 @@
+package com.casestudy.basedomain.dto;
+
+package com.casestudy.basedomain.dto;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
+
+@ExtendWith(MockitoExtension.class)
+public class OrderEventTest {
+
+    @Mock
+    private Order order;
+
+    @InjectMocks
+    private OrderEvent orderEvent;
+
+    @Test
+    public void testConstructor() {
+        // arrange
+        String message = "Order placed";
+        String status = "Pending";
+        String email = "test@example.com";
+        Boolean isInstantEmail = true;
+
+        // act
+        orderEvent = new OrderEvent(message, status, order, email, isInstantEmail);
+
+        // assert
+        assertEquals(message, orderEvent.getMessage());
+        assertEquals(status, orderEvent.getStatus());
+        assertEquals(order, orderEvent.getOrder());
+        assertEquals(email, orderEvent.getEmail());
+        assertEquals(isInstantEmail, orderEvent.getIsInstantEmail());
+    }
+
+    @Test
+    public void testGettersAndSetters() {
+        // arrange
+        String message = "Order shipped";
+        String status = "Completed";
+        String email = "test@example.com";
+        Boolean isInstantEmail = false;
+
+        // act
+        orderEvent.setMessage(message);
+        orderEvent.setStatus(status);
+        orderEvent.setOrder(order);
+        orderEvent.setEmail(email);
+        orderEvent.setIsInstantEmail(isInstantEmail);
+
+        // assert
+        assertEquals(message, orderEvent.getMessage());
+        assertEquals(status, orderEvent.getStatus());
+        assertEquals(order, orderEvent.getOrder());
+        assertEquals(email, orderEvent.getEmail());
+        assertEquals(isInstantEmail, orderEvent.getIsInstantEmail());
+    }
+
+    @Test
+    public void testToString() {
+        // arrange
+        String message = "Order cancelled";
+        String status = "Cancelled";
+        String email = "test@example.com";
+        Boolean isInstantEmail = true;
+        orderEvent = new OrderEvent(message, status, order, email, isInstantEmail);
+
+        // act
+        String result = orderEvent.toString();
+
+        // assert
+        assertEquals("OrderEvent [message=Order cancelled, status=Cancelled, order=" + order + ", email=test@example.com, isInstantEmail=true]", result);
+    }
+}

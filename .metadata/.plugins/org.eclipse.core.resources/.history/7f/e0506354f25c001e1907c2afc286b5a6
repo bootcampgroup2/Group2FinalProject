@@ -1,0 +1,53 @@
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.model.User;
+import com.service.BulkNotificationService;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.http.MediaType;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@WebMvcTest(BulkNotificationController.class)
+public class BulkNotificationControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @MockBean
+    private BulkNotificationService bulkNotificationService;
+
+    private ObjectMapper objectMapper = new ObjectMapper();
+
+    @BeforeEach
+    void setUp() {
+        // Mock the behavior of bulkNotificationService.sendBulk() here if needed
+    }
+
+    @Test
+    public void testSendBulkNotification() throws Exception {
+        // Create a list of mock users for the service response
+        List<User> mockUsers = new ArrayList<>();
+        // Add some mock user objects to the list if needed
+
+        // Mock the service method to return the list of mock users
+        //Mockito.when(bulkNotificationService.sendBulk()).thenReturn(mockUsers);
+
+        // Perform a GET request to the /bulknotification/sendbulk endpoint
+        mockMvc.perform(MockMvcRequestBuilders.get("/bulknotification/sendbulk")
+                .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(MockMvcResultMatchers.status().isOk()) // Expecting an OK status (200)
+                .andExpect(MockMvcResultMatchers.content().string("send")); // Expecting the response body to be "send"
+
+        // Verify that the service method was called once
+        Mockito.verify(bulkNotificationService, Mockito.times(1)).sendBulk();
+    }
+}

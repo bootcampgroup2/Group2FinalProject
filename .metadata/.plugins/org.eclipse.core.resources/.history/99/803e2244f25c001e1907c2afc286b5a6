@@ -1,0 +1,44 @@
+package com.controller;
+
+import static org.mockito.Mockito.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+import com.service.BulkNotificationService;
+import com.controller.BulkNotificationController;
+
+public class BulkNotificationControllerTest {
+
+    @Mock
+    private BulkNotificationService bulkNotificationService;
+
+    @InjectMocks
+    private BulkNotificationController bulkNotificationController;
+
+    private MockMvc mockMvc;
+
+    @BeforeEach
+    public void setup() {
+        mockMvc = MockMvcBuilders.standaloneSetup(bulkNotificationController).build();
+    }
+
+    @Test
+    public void testSendBulkNotification() throws Exception {
+        // Arrange
+        doNothing().when(bulkNotificationService).sendBulk();
+
+        // Act and Assert
+        mockMvc.perform(get("/bulknotification/sendbulk"))
+               .andExpect(status().isOk())
+               .andExpect(content().string("send"));
+
+        verify(bulkNotificationService, times(1)).sendBulk();
+    }
+}

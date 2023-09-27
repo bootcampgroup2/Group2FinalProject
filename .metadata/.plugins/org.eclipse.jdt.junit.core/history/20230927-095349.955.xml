@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OrderMailTest" project="email-service" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.model.OrderMailTest" time="0.016" displayname="OrderMailTest" uniqueid="[engine:junit-jupiter]/[class:com.model.OrderMailTest]">
+    <testcase name="testOrdermail" classname="com.model.OrderMailTest" time="0.016" displayname="testOrdermail()" uniqueid="[engine:junit-jupiter]/[class:com.model.OrderMailTest]/[method:testOrdermail()]"/>
+  </testsuite>
+</testrun>

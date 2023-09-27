@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BulkNotificationServiceTest" project="bulknotificationservice" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.service.BulkNotificationServiceTest" time="1.094" displayname="BulkNotificationServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.service.BulkNotificationServiceTest]">
+    <testcase name="testSendBulk" classname="com.service.BulkNotificationServiceTest" time="1.094" displayname="testSendBulk()" uniqueid="[engine:junit-jupiter]/[class:com.service.BulkNotificationServiceTest]/[method:testSendBulk()]"/>
+  </testsuite>
+</testrun>

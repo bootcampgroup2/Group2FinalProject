@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HomeControllerTest" project="AuthenticationService" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.controller.HomeControllerTest" time="0.827" displayname="HomeControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.controller.HomeControllerTest]">
+    <testcase name="testLoginSuccess" classname="com.controller.HomeControllerTest" time="0.82" displayname="testLoginSuccess()" uniqueid="[engine:junit-jupiter]/[class:com.controller.HomeControllerTest]/[method:testLoginSuccess()]"/>
+    <testcase name="testLoginFailure" classname="com.controller.HomeControllerTest" time="0.006" displayname="testLoginFailure()" uniqueid="[engine:junit-jupiter]/[class:com.controller.HomeControllerTest]/[method:testLoginFailure()]"/>
+  </testsuite>
+</testrun>
