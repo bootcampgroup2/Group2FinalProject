@@ -1,0 +1,23 @@
+package com.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+import org.springframework.ui.freemarker.FreeMarkerConfigurationFactoryBean;
+import org.springframework.web.client.RestTemplate;
+
+@Configuration
+public class ApiConfig {
+    @Primary
+    @Bean
+    public FreeMarkerConfigurationFactoryBean factoryBean() {
+        FreeMarkerConfigurationFactoryBean bean = new FreeMarkerConfigurationFactoryBean();
+        bean.setTemplateLoaderPath("classpath:/templates");
+        return bean;
+    }
+    
+    @Bean
+    public RestTemplate getTemplate() {
+    	return new RestTemplate();
+    }
+}

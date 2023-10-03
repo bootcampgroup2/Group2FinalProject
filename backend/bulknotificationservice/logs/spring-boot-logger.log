@@ -1,0 +1,487 @@
+2023-10-03 10:04:03,319 INFO org.springframework.boot.StartupInfoLogger [main] Starting BulknotificationserviceApplication using Java 17.0.7 on LAPTOP-HU6AF26H with PID 10980 (C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice\target\classes started by Janhavi Mudaliar in C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice)
+2023-10-03 10:04:03,324 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-03 10:04:04,197 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-10-03 10:04:04,212 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-10-03 10:04:04,217 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-03 10:04:04,218 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-03 10:04:04,313 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-03 10:04:04,313 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 943 ms
+2023-10-03 10:04:04,763 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-10-03 10:04:04,791 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-10-03 10:04:04,801 INFO org.springframework.boot.StartupInfoLogger [main] Started BulknotificationserviceApplication in 1.857 seconds (JVM running for 5.325)
+2023-10-03 10:38:10,874 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(42)-127.0.0.1] Application shutdown requested.
+2023-10-03 10:38:10,953 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(42)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8085"]
+2023-10-03 10:38:10,953 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(42)-127.0.0.1] Stopping service [Tomcat]
+2023-10-03 10:38:10,984 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(42)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8085"]
+2023-10-03 10:38:10,989 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(42)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8085"]
+2023-10-03 10:38:51,499 INFO org.springframework.boot.StartupInfoLogger [main] Starting BulknotificationserviceApplication using Java 17.0.7 on LAPTOP-HU6AF26H with PID 25584 (C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice\target\classes started by Janhavi Mudaliar in C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice)
+2023-10-03 10:38:51,508 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-03 10:38:52,443 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-10-03 10:38:52,454 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-10-03 10:38:52,458 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-03 10:38:52,458 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-03 10:38:52,559 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-03 10:38:52,560 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 994 ms
+2023-10-03 10:38:53,129 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-10-03 10:38:53,161 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-10-03 10:38:53,175 INFO org.springframework.boot.StartupInfoLogger [main] Started BulknotificationserviceApplication in 2.061 seconds (JVM running for 5.677)
+2023-10-03 11:06:18,800 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(38)-127.0.0.1] Application shutdown requested.
+2023-10-03 11:06:18,815 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(38)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8085"]
+2023-10-03 11:06:18,815 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(38)-127.0.0.1] Stopping service [Tomcat]
+2023-10-03 11:06:18,823 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(38)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8085"]
+2023-10-03 11:06:18,826 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(38)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8085"]
+2023-10-03 11:06:23,656 INFO org.springframework.boot.StartupInfoLogger [main] Starting BulknotificationserviceApplication using Java 17.0.7 on LAPTOP-HU6AF26H with PID 9368 (C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice\target\classes started by Janhavi Mudaliar in C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice)
+2023-10-03 11:06:23,660 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-03 11:06:24,529 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-10-03 11:06:24,537 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-10-03 11:06:24,539 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-03 11:06:24,541 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-03 11:06:24,633 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-03 11:06:24,633 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 891 ms
+2023-10-03 11:06:25,025 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-10-03 11:06:25,049 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-10-03 11:06:25,058 INFO org.springframework.boot.StartupInfoLogger [main] Started BulknotificationserviceApplication in 1.736 seconds (JVM running for 5.122)
+2023-10-03 11:07:27,962 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2023-10-03 11:07:27,975 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8085"]
+2023-10-03 11:07:27,975 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Stopping service [Tomcat]
+2023-10-03 11:07:27,984 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8085"]
+2023-10-03 11:07:27,987 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8085"]
+2023-10-03 11:20:01,886 INFO org.springframework.boot.StartupInfoLogger [main] Starting BulknotificationserviceApplication using Java 17.0.7 on LAPTOP-HU6AF26H with PID 21720 (C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice\target\classes started by Janhavi Mudaliar in C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice)
+2023-10-03 11:20:01,895 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-03 11:20:02,818 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-10-03 11:20:02,826 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-10-03 11:20:02,829 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-03 11:20:02,829 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-03 11:20:02,919 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-03 11:20:02,921 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 950 ms
+2023-10-03 11:20:03,324 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-10-03 11:20:03,349 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-10-03 11:20:03,357 INFO org.springframework.boot.StartupInfoLogger [main] Started BulknotificationserviceApplication in 1.863 seconds (JVM running for 5.369)
+2023-10-03 11:23:36,229 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(13)-127.0.0.1] Application shutdown requested.
+2023-10-03 11:23:36,248 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(13)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8085"]
+2023-10-03 11:23:36,248 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(13)-127.0.0.1] Stopping service [Tomcat]
+2023-10-03 11:23:36,257 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(13)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8085"]
+2023-10-03 11:23:36,259 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(13)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8085"]
+2023-10-03 12:38:37,077 INFO org.springframework.boot.StartupInfoLogger [main] Starting BulknotificationserviceApplication using Java 17.0.7 on LAPTOP-HU6AF26H with PID 6268 (C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice\target\classes started by Janhavi Mudaliar in C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice)
+2023-10-03 12:38:37,088 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-03 12:38:37,910 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-10-03 12:38:37,918 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-10-03 12:38:37,922 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-03 12:38:37,922 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-03 12:38:38,015 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-03 12:38:38,015 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 856 ms
+2023-10-03 12:38:38,403 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-10-03 12:38:38,427 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-10-03 12:38:38,435 INFO org.springframework.boot.StartupInfoLogger [main] Started BulknotificationserviceApplication in 1.714 seconds (JVM running for 5.074)
+2023-10-03 12:48:41,504 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(19)-127.0.0.1] Application shutdown requested.
+2023-10-03 12:48:41,517 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(19)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8085"]
+2023-10-03 12:48:41,517 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(19)-127.0.0.1] Stopping service [Tomcat]
+2023-10-03 12:48:41,525 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(19)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8085"]
+2023-10-03 12:48:41,528 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(19)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8085"]
+2023-10-03 14:09:21,338 INFO org.springframework.boot.StartupInfoLogger [main] Starting BulknotificationserviceApplication using Java 17.0.7 on LAPTOP-HU6AF26H with PID 34172 (C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice\target\classes started by Janhavi Mudaliar in C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice)
+2023-10-03 14:09:21,340 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-03 14:09:22,182 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-10-03 14:09:22,189 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-10-03 14:09:22,191 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-03 14:09:22,192 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-03 14:09:22,279 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-03 14:09:22,279 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 889 ms
+2023-10-03 14:09:22,690 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-10-03 14:09:22,714 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-10-03 14:09:22,721 INFO org.springframework.boot.StartupInfoLogger [main] Started BulknotificationserviceApplication in 1.752 seconds (JVM running for 5.061)
+2023-10-03 14:17:43,023 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(17)-127.0.0.1] Application shutdown requested.
+2023-10-03 14:17:43,041 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(17)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8085"]
+2023-10-03 14:17:43,041 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(17)-127.0.0.1] Stopping service [Tomcat]
+2023-10-03 14:17:43,051 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(17)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8085"]
+2023-10-03 14:17:43,052 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(17)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8085"]
+2023-10-03 15:19:41,024 INFO org.springframework.boot.StartupInfoLogger [main] Starting BulknotificationserviceApplication using Java 1.8.0_381 on LAPTOP-HU6AF26H with PID 3572 (C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice\target\classes started by Janhavi Mudaliar in C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice)
+2023-10-03 15:19:41,029 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-03 15:19:42,152 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-10-03 15:19:42,163 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-10-03 15:19:42,167 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-03 15:19:42,167 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-03 15:19:42,332 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-03 15:19:42,333 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1202 ms
+2023-10-03 15:19:42,971 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-10-03 15:19:42,998 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-10-03 15:19:43,008 INFO org.springframework.boot.StartupInfoLogger [main] Started BulknotificationserviceApplication in 2.507 seconds (JVM running for 6.247)
+2023-10-03 15:26:21,464 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(15)-127.0.0.1] Application shutdown requested.
+2023-10-03 15:26:21,610 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(15)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8085"]
+2023-10-03 15:26:21,611 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(15)-127.0.0.1] Stopping service [Tomcat]
+2023-10-03 15:26:21,620 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(15)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8085"]
+2023-10-03 15:33:46,396 INFO org.springframework.boot.StartupInfoLogger [main] Starting BulknotificationserviceApplication using Java 1.8.0_381 on LAPTOP-HU6AF26H with PID 28580 (C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice\target\classes started by Janhavi Mudaliar in C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice)
+2023-10-03 15:33:46,401 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-03 15:33:47,710 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-10-03 15:33:47,721 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-10-03 15:33:47,726 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-03 15:33:47,727 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-03 15:33:47,940 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-03 15:33:47,940 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1420 ms
+2023-10-03 15:33:48,600 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-10-03 15:33:48,637 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-10-03 15:33:48,649 INFO org.springframework.boot.StartupInfoLogger [main] Started BulknotificationserviceApplication in 2.827 seconds (JVM running for 6.895)
+2023-10-03 16:02:51,973 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8085-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-03 16:02:51,978 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-10-03 16:02:51,984 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-2] Completed initialization in 6 ms
+2023-10-03 16:02:55,508 INFO org.apache.kafka.common.config.AbstractConfig [http-nio-8085-exec-2] ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2023-10-03 16:02:56,128 INFO org.apache.kafka.clients.producer.KafkaProducer [http-nio-8085-exec-2] [Producer clientId=producer-1] Instantiated an idempotent producer.
+2023-10-03 16:02:57,590 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8085-exec-2] Kafka version: 3.1.2
+2023-10-03 16:02:57,596 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8085-exec-2] Kafka commitId: f8c67dc3ae0a3265
+2023-10-03 16:02:57,597 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8085-exec-2] Kafka startTimeMs: 1696329177389
+2023-10-03 16:03:03,985 INFO org.apache.kafka.clients.Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Resetting the last seen epoch of partition bulk_notification-0 to 0 since the associated topicId changed from null to Po7X-P8TTfS2FIgLQpKbRg
+2023-10-03 16:03:04,157 INFO org.apache.kafka.clients.Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Cluster ID: anGdAkFKROO3gDUMgjWzhw
+2023-10-03 16:03:04,161 INFO org.apache.kafka.clients.producer.internals.TransactionManager [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] ProducerId set to 5001 with epoch 0
+2023-10-03 16:03:04,658 INFO com.controller.BulkNotificationController [http-nio-8085-exec-2] Bulk notification has been send to all users related to sales
+2023-10-03 16:12:33,897 INFO org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2023-10-03 17:09:06,595 INFO org.apache.kafka.clients.Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Resetting the last seen epoch of partition bulk_notification-0 to 0 since the associated topicId changed from null to Po7X-P8TTfS2FIgLQpKbRg
+2023-10-03 17:09:06,635 INFO com.controller.BulkNotificationController [http-nio-8085-exec-4] Bulk notification has been send to all users related to sales
+2023-10-03 17:10:54,237 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(104)-127.0.0.1] Application shutdown requested.
+2023-10-03 17:10:54,375 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(104)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8085"]
+2023-10-03 17:10:54,376 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(104)-127.0.0.1] Stopping service [Tomcat]
+2023-10-03 17:10:54,381 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(104)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-03 17:10:54,406 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(104)-127.0.0.1] The web application [ROOT] appears to have started a thread named [kafka-producer-network-thread | producer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.kafka.common.network.Selector.select(Selector.java:873)
+ org.apache.kafka.common.network.Selector.poll(Selector.java:465)
+ org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:560)
+ org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:328)
+ org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:243)
+ java.lang.Thread.run(Thread.java:750)
+2023-10-03 17:10:54,411 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(104)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8085"]
+2023-10-03 17:10:54,414 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(104)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8085"]
+2023-10-03 17:10:54,434 INFO org.apache.kafka.clients.producer.KafkaProducer [RMI TCP Connection(104)-127.0.0.1] [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2023-10-03 17:10:54,445 INFO org.apache.kafka.common.metrics.Metrics [RMI TCP Connection(104)-127.0.0.1] Metrics scheduler closed
+2023-10-03 17:10:54,446 INFO org.apache.kafka.common.metrics.Metrics [RMI TCP Connection(104)-127.0.0.1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-10-03 17:10:54,447 INFO org.apache.kafka.common.metrics.Metrics [RMI TCP Connection(104)-127.0.0.1] Metrics reporters closed
+2023-10-03 17:10:54,448 INFO org.apache.kafka.common.utils.AppInfoParser [RMI TCP Connection(104)-127.0.0.1] App info kafka.producer for producer-1 unregistered
+2023-10-03 17:11:00,122 INFO org.springframework.boot.StartupInfoLogger [main] Starting BulknotificationserviceApplication using Java 1.8.0_381 on LAPTOP-HU6AF26H with PID 17828 (C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice\target\classes started by Janhavi Mudaliar in C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice)
+2023-10-03 17:11:00,134 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-03 17:11:01,024 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-10-03 17:11:01,034 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-10-03 17:11:01,038 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-03 17:11:01,038 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-03 17:11:01,210 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-03 17:11:01,210 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 981 ms
+2023-10-03 17:11:01,658 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-10-03 17:11:01,689 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-10-03 17:11:01,702 INFO org.springframework.boot.StartupInfoLogger [main] Started BulknotificationserviceApplication in 1.949 seconds (JVM running for 5.798)
+2023-10-03 17:11:09,905 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8085-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-03 17:11:09,905 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-03 17:11:09,906 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-1] Completed initialization in 0 ms
+2023-10-03 17:11:10,357 INFO org.apache.kafka.common.config.AbstractConfig [http-nio-8085-exec-1] ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2023-10-03 17:11:10,400 INFO org.apache.kafka.clients.producer.KafkaProducer [http-nio-8085-exec-1] [Producer clientId=producer-1] Instantiated an idempotent producer.
+2023-10-03 17:11:10,459 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8085-exec-1] Kafka version: 3.1.2
+2023-10-03 17:11:10,460 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8085-exec-1] Kafka commitId: f8c67dc3ae0a3265
+2023-10-03 17:11:10,460 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8085-exec-1] Kafka startTimeMs: 1696333270457
+2023-10-03 17:11:10,915 INFO org.apache.kafka.clients.Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Resetting the last seen epoch of partition bulk_notification-0 to 0 since the associated topicId changed from null to Po7X-P8TTfS2FIgLQpKbRg
+2023-10-03 17:11:10,924 INFO org.apache.kafka.clients.Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Cluster ID: anGdAkFKROO3gDUMgjWzhw
+2023-10-03 17:11:10,925 INFO org.apache.kafka.clients.producer.internals.TransactionManager [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] ProducerId set to 5002 with epoch 0
+2023-10-03 17:11:10,954 INFO com.controller.BulkNotificationController [http-nio-8085-exec-1] Bulk notification has been send to all users related to sales
+2023-10-03 17:12:14,725 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+2023-10-03 17:12:14,836 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(11)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8085"]
+2023-10-03 17:12:14,836 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(11)-127.0.0.1] Stopping service [Tomcat]
+2023-10-03 17:12:14,838 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(11)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-03 17:12:14,845 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(11)-127.0.0.1] The web application [ROOT] appears to have started a thread named [kafka-producer-network-thread | producer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.kafka.common.network.Selector.select(Selector.java:873)
+ org.apache.kafka.common.network.Selector.poll(Selector.java:465)
+ org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:560)
+ org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:328)
+ org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:243)
+ java.lang.Thread.run(Thread.java:750)
+2023-10-03 17:12:14,848 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(11)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8085"]
+2023-10-03 17:12:14,850 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(11)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8085"]
+2023-10-03 17:12:14,852 INFO org.apache.kafka.clients.producer.KafkaProducer [RMI TCP Connection(11)-127.0.0.1] [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2023-10-03 17:12:14,857 INFO org.apache.kafka.common.metrics.Metrics [RMI TCP Connection(11)-127.0.0.1] Metrics scheduler closed
+2023-10-03 17:12:14,858 INFO org.apache.kafka.common.metrics.Metrics [RMI TCP Connection(11)-127.0.0.1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-10-03 17:12:14,858 INFO org.apache.kafka.common.metrics.Metrics [RMI TCP Connection(11)-127.0.0.1] Metrics reporters closed
+2023-10-03 17:12:14,858 INFO org.apache.kafka.common.utils.AppInfoParser [RMI TCP Connection(11)-127.0.0.1] App info kafka.producer for producer-1 unregistered
+2023-10-03 17:14:28,669 INFO org.springframework.boot.StartupInfoLogger [main] Starting BulknotificationserviceApplication using Java 1.8.0_381 on LAPTOP-HU6AF26H with PID 2836 (C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice\target\classes started by Janhavi Mudaliar in C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice)
+2023-10-03 17:14:28,673 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-03 17:14:29,459 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-10-03 17:14:29,469 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-10-03 17:14:29,472 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-03 17:14:29,472 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-03 17:14:29,601 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-03 17:14:29,601 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 883 ms
+2023-10-03 17:14:30,015 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-10-03 17:14:30,035 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-10-03 17:14:30,042 INFO org.springframework.boot.StartupInfoLogger [main] Started BulknotificationserviceApplication in 1.818 seconds (JVM running for 5.104)
+2023-10-03 17:16:11,362 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8085-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-03 17:16:11,363 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-5] Initializing Servlet 'dispatcherServlet'
+2023-10-03 17:16:11,363 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-5] Completed initialization in 0 ms
+2023-10-03 17:16:11,799 INFO org.apache.kafka.common.config.AbstractConfig [http-nio-8085-exec-5] ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2023-10-03 17:16:11,834 INFO org.apache.kafka.clients.producer.KafkaProducer [http-nio-8085-exec-5] [Producer clientId=producer-1] Instantiated an idempotent producer.
+2023-10-03 17:16:11,885 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8085-exec-5] Kafka version: 3.1.2
+2023-10-03 17:16:11,886 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8085-exec-5] Kafka commitId: f8c67dc3ae0a3265
+2023-10-03 17:16:11,886 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8085-exec-5] Kafka startTimeMs: 1696333571882
+2023-10-03 17:16:12,233 INFO org.apache.kafka.clients.Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Resetting the last seen epoch of partition bulk_notification-0 to 0 since the associated topicId changed from null to Po7X-P8TTfS2FIgLQpKbRg
+2023-10-03 17:16:12,237 INFO org.apache.kafka.clients.Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Cluster ID: anGdAkFKROO3gDUMgjWzhw
+2023-10-03 17:16:12,238 INFO org.apache.kafka.clients.producer.internals.TransactionManager [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] ProducerId set to 5004 with epoch 0
+2023-10-03 17:16:12,262 INFO com.controller.BulkNotificationController [http-nio-8085-exec-5] Bulk notification has been send to all users related to sales
+2023-10-03 17:25:12,316 INFO org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.

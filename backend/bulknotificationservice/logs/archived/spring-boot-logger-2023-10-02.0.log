@@ -1,0 +1,16 @@
+2023-10-02 10:13:36,379 INFO org.springframework.boot.StartupInfoLogger [main] Starting BulknotificationserviceApplication using Java 17.0.7 on LAPTOP-HU6AF26H with PID 32428 (C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice\target\classes started by Janhavi Mudaliar in C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice)
+2023-10-02 10:13:36,382 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-02 10:13:37,137 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-10-02 10:13:37,149 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-10-02 10:13:37,151 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-02 10:13:37,152 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-10-02 10:13:37,224 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-02 10:13:37,224 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 789 ms
+2023-10-02 10:13:37,588 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-10-02 10:13:37,609 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-10-02 10:13:37,618 INFO org.springframework.boot.StartupInfoLogger [main] Started BulknotificationserviceApplication in 1.568 seconds (JVM running for 4.904)
+2023-10-02 10:24:07,341 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(20)-127.0.0.1] Application shutdown requested.
+2023-10-02 10:24:07,355 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(20)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8085"]
+2023-10-02 10:24:07,356 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(20)-127.0.0.1] Stopping service [Tomcat]
+2023-10-02 10:24:07,364 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(20)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8085"]
+2023-10-02 10:24:07,366 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(20)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8085"]

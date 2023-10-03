@@ -1,0 +1,145 @@
+2023-09-24 11:06:54,446 INFO org.springframework.boot.StartupInfoLogger [main] Starting BulknotificationserviceApplication using Java 17.0.7 on LAPTOP-HU6AF26H with PID 13896 (C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice\target\classes started by Janhavi Mudaliar in C:\Users\Janhavi Mudaliar\Documents\FinalProject\latestbackend-master\bulknotificationservice)
+2023-09-24 11:06:54,450 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-24 11:06:55,281 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-09-24 11:06:55,289 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-09-24 11:06:55,293 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-09-24 11:06:55,294 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-24 11:06:55,388 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-09-24 11:06:55,389 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 887 ms
+2023-09-24 11:06:55,771 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-09-24 11:06:55,795 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2023-09-24 11:06:55,803 INFO org.springframework.boot.StartupInfoLogger [main] Started BulknotificationserviceApplication in 1.712 seconds (JVM running for 5.377)
+2023-09-24 11:09:12,651 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8085-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-24 11:09:12,652 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-09-24 11:09:12,652 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8085-exec-2] Completed initialization in 0 ms
+2023-09-24 11:09:13,084 INFO org.apache.kafka.common.config.AbstractConfig [http-nio-8085-exec-2] ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2023-09-24 11:09:13,134 INFO org.apache.kafka.clients.producer.KafkaProducer [http-nio-8085-exec-2] [Producer clientId=producer-1] Instantiated an idempotent producer.
+2023-09-24 11:09:13,187 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8085-exec-2] Kafka version: 3.1.2
+2023-09-24 11:09:13,188 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8085-exec-2] Kafka commitId: f8c67dc3ae0a3265
+2023-09-24 11:09:13,189 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8085-exec-2] Kafka startTimeMs: 1695533953185
+2023-09-24 11:09:13,606 INFO org.apache.kafka.clients.Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Resetting the last seen epoch of partition bulk_notification-0 to 0 since the associated topicId changed from null to GTkIR2QaQLG4ovKtC6UZUA
+2023-09-24 11:09:13,609 INFO org.apache.kafka.clients.Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Cluster ID: tgxzKXmtQle4W3JQ56y86A
+2023-09-24 11:09:13,609 INFO org.apache.kafka.clients.producer.internals.TransactionManager [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] ProducerId set to 22002 with epoch 0
+2023-09-24 11:09:13,641 INFO com.controller.BulkNotificationController [http-nio-8085-exec-2] Bulk notification has been send to all users related to sales
+2023-09-24 11:16:46,040 INFO org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2023-09-24 11:16:46,043 INFO org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2023-09-24 11:16:46,044 INFO org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Cancelled in-flight METADATA request with correlation id 6 due to node 0 being disconnected (elapsed time since creation: 0ms, elapsed time since send: 0ms, request timeout: 30000ms)
+2023-09-24 11:16:48,183 INFO org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2023-09-24 11:16:48,183 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node 0 (LAPTOP-HU6AF26H/192.168.1.7:9092) could not be established. Broker may not be available.
+2023-09-24 11:16:50,300 INFO org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2023-09-24 11:16:50,300 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node 0 (LAPTOP-HU6AF26H/192.168.1.7:9092) could not be established. Broker may not be available.
+2023-09-24 11:16:52,563 INFO org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2023-09-24 11:16:52,563 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node 0 (LAPTOP-HU6AF26H/192.168.1.7:9092) could not be established. Broker may not be available.
+2023-09-24 11:16:55,070 INFO org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2023-09-24 11:16:55,070 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node 0 (LAPTOP-HU6AF26H/192.168.1.7:9092) could not be established. Broker may not be available.
+2023-09-24 11:16:57,952 INFO org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2023-09-24 11:16:57,952 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node 0 (LAPTOP-HU6AF26H/192.168.1.7:9092) could not be established. Broker may not be available.
+2023-09-24 11:17:01,012 INFO org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2023-09-24 11:17:01,012 WARN org.apache.kafka.clients.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node 0 (LAPTOP-HU6AF26H/192.168.1.7:9092) could not be established. Broker may not be available.
+2023-09-24 11:17:02,672 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(16)-127.0.0.1] Application shutdown requested.
+2023-09-24 11:17:02,690 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(16)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8085"]
+2023-09-24 11:17:02,691 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(16)-127.0.0.1] Stopping service [Tomcat]
+2023-09-24 11:17:02,693 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(16)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-24 11:17:02,701 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(16)-127.0.0.1] The web application [ROOT] appears to have started a thread named [kafka-producer-network-thread | producer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.7/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.7/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.7/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ app//org.apache.kafka.common.network.Selector.select(Selector.java:873)
+ app//org.apache.kafka.common.network.Selector.poll(Selector.java:465)
+ app//org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:560)
+ app//org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:328)
+ app//org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:243)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-09-24 11:17:02,702 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(16)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8085"]
+2023-09-24 11:17:02,704 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(16)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8085"]
+2023-09-24 11:17:02,705 INFO org.apache.kafka.clients.producer.KafkaProducer [RMI TCP Connection(16)-127.0.0.1] [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2023-09-24 11:17:02,708 INFO org.apache.kafka.common.metrics.Metrics [RMI TCP Connection(16)-127.0.0.1] Metrics scheduler closed
+2023-09-24 11:17:02,708 INFO org.apache.kafka.common.metrics.Metrics [RMI TCP Connection(16)-127.0.0.1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-09-24 11:17:02,709 INFO org.apache.kafka.common.metrics.Metrics [RMI TCP Connection(16)-127.0.0.1] Metrics reporters closed
+2023-09-24 11:17:02,709 INFO org.apache.kafka.common.utils.AppInfoParser [RMI TCP Connection(16)-127.0.0.1] App info kafka.producer for producer-1 unregistered
