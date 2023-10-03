@@ -1,0 +1,118 @@
+version: '3'
+services:
+  # React App
+  react-app:
+    image: reactapp:latest
+    ports:
+      - "3000:3000"
+    networks:
+      - mynet
+
+  # Spring Boot Microservice 1
+  microservice1:
+    image: sbemailapp:latest
+    ports:
+      - "8084:8084"
+    environment:
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+    depends_on:
+      - kafka
+    networks:
+      - mynet
+
+  # Spring Boot Microservice 2
+  microservice2:
+    image: sborderapp:latest
+    ports:
+      - "8083:8083"
+    environment:
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+    depends_on:
+      - kafka
+    networks:
+      - mynet
+
+   # Spring Boot Microservice 3
+  microservice3:
+    image: sbeauthapp:latest
+    ports:
+      - "8081:8081"
+    environment:
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+    depends_on:
+      - kafka
+    networks:
+      - mynet
+
+   # Spring Boot Microservice 4
+  microservice4:
+    image: sbebulkapp:latest
+    ports:
+      - "8085:8085"
+    environment:
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+    depends_on:
+      - kafka
+    networks:
+      - mynet
+
+
+   # Spring Boot Microservice 5
+  microservice5:
+    image: sbapp:latest
+    ports:
+      - "8082:8082"
+    environment:
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+    depends_on:
+      - kafka
+    networks:
+      - mynet
+
+  # Spring Boot API Gateway
+  api-gateway:
+    image: sbeapiapp:latest
+    ports:
+      - "8080:8080"
+    
+      
+    
+    depends_on:
+      - microservice1
+      - microservice2
+      - microservice3
+      - microservice4
+      - microservice5
+    networks:
+      - mynet
+
+  
+
+  # Kafka
+  kafka:
+    image: confluentinc/cp-kafka:6.2.0
+    environment:
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+    ports:
+      - "9092:9092"
+    depends_on:
+      - zookeeper
+    networks:
+      - mynet
+
+  # Zookeeper
+  zookeeper:
+    image: confluentinc/cp-zookeeper:6.2.0
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+    ports:
+      - "2181:2181"
+    networks:
+      - mynet
+
+
+
+networks:
+  mynet:

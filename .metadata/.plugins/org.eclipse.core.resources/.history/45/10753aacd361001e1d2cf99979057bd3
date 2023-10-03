@@ -1,0 +1,49 @@
+spring:
+ cloud:
+   gateway:
+     globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:3000"
+            allowedHeaders: "*"
+            allowedMethods:
+            - GET
+            - POST
+            - PATCH
+            - DELETE
+            - PUT
+     routes:
+       - id: user-service
+         uri: http://microservice5:8082
+         predicates:
+           - Path=/user/**
+         filters:
+           - AuthenticationFilter
+           
+       - id: authentication_service
+         uri: http://microservice3:8081
+         predicates:
+           - Path=/auth/**
+         filters:
+           - AuthenticationFilter
+           
+       - id: order_service
+         uri: http://microservice2:8083
+         predicates:
+            - Path=/orders/**
+         filters:
+            - AuthenticationFilter
+            
+       - id: bulknotification_service
+         uri: http://microservice4:8085
+         predicates:
+            - Path=/bulknotification/**
+         filters:
+            - AuthenticationFilter
+       - id: email_service
+         uri: http://microservice1:8084
+         predicates:
+            - Path=/email/**
+         filters:
+            - AuthenticationFilter
+        

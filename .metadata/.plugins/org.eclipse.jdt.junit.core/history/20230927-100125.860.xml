@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="JwtUtilityTest" project="AuthenticationService" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.service.JwtUtilityTest" time="0.478" displayname="JwtUtilityTest" uniqueid="[engine:junit-jupiter]/[class:com.service.JwtUtilityTest]">
-    <testcase name="testGenerateToken" classname="com.service.JwtUtilityTest" time="0.423" displayname="testGenerateToken()" uniqueid="[engine:junit-jupiter]/[class:com.service.JwtUtilityTest]/[method:testGenerateToken()]"/>
-    <testcase name="testValidateValidToken" classname="com.service.JwtUtilityTest" time="0.048" displayname="testValidateValidToken()" uniqueid="[engine:junit-jupiter]/[class:com.service.JwtUtilityTest]/[method:testValidateValidToken()]"/>
-    <testcase name="testValidateInvalidToken" classname="com.service.JwtUtilityTest" time="0.005" displayname="testValidateInvalidToken()" uniqueid="[engine:junit-jupiter]/[class:com.service.JwtUtilityTest]/[method:testValidateInvalidToken()]"/>
-  </testsuite>
-</testrun>

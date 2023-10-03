@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="RegisterEventTest" project="email-service" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.model.RegisterEventTest" time="0.0" displayname="RegisterEventTest" uniqueid="[engine:junit-jupiter]/[class:com.model.RegisterEventTest]">
-    <testcase name="testRegisterEvent" classname="com.model.RegisterEventTest" time="0.0" displayname="testRegisterEvent()" uniqueid="[engine:junit-jupiter]/[class:com.model.RegisterEventTest]/[method:testRegisterEvent()]"/>
-  </testsuite>
-</testrun>

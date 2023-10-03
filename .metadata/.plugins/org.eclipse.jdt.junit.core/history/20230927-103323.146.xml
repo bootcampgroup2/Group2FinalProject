@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="OrderControllerTest" project="order-service" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.casestudy.orderservice.controller.OrderControllerTest" time="1.868" displayname="OrderControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.casestudy.orderservice.controller.OrderControllerTest]">
-    <testcase name="testPlaceOrder" classname="com.casestudy.orderservice.controller.OrderControllerTest" time="1.868" displayname="testPlaceOrder()" uniqueid="[engine:junit-jupiter]/[class:com.casestudy.orderservice.controller.OrderControllerTest]/[method:testPlaceOrder()]"/>
-  </testsuite>
-</testrun>
